@@ -1,6 +1,6 @@
 # Programming Hero - Web Development Course - Core content for github  
 
-Resources by **[Syed Faysel Ahammad Rajo](https://syedfaysel.me)**  
+:beginner: Resources by **[Syed Faysel Ahammad Rajo](https://syedfaysel.me)**  
 
 <font  color="orange">Let's get started </font>  
 
@@ -34,9 +34,12 @@ Milestone 12 | Final Project
 Milestone 13 | Intermediate React
 
 
-
+<br>
 
 
 - [x] Done
 - [ ] To do
+
+
+> Try 1 milestone every week
 
