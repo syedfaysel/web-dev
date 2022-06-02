@@ -217,6 +217,93 @@ console.log(secondElement);
 ```
 
 
+### Working with index  
+
+Using index, we can access any element of an array, change the elements. 
+
+The opposite of this is, finding the index number of an element by `indexOf` method. 
+
+`syntax: arrayName.indexOf`
+
+Sample Code: 
+
+```js
+var arr2 = ['Syed','Faysel','Ahammad', 'Rajo'];
+
+arr2[1] = 'Kaysel';
+//changes the value of arr2[1] from Faysel to kaysel
+
+//finding the index number of an element by indexOf method
+
+var findThis = arr2.indexOf('Rajo');
+console.log(findThis);
+
+
+console.log(arr2.indexOf('invalid element'));
+// output is -1 since there is no element matched. 
+```
+Output:
+
+```js
+[ 'Syed', 'Faysel', 'Ahammad', 'Rajo' ]
+[ 'Syed', 'Kaysel', 'Ahammad', 'Rajo' ]
+3
+-1
+```
+
+### push(), pop()
+
+> Adding an element to the last of an array using push() method  
+
+We can add any element to the last of the array. `syntax: arrayName.push(new element)`. 
+
+> Removing an element from the last of an array using pop() method  
+
+We can remove any element from the last of the array. `syntax: arrayName.pop()`. Remember, push() method takes no parameter. 
+
+Sample Code: 
+
+```js
+var years = [2016, 2017, 2018, 2019,2020, 2021,2022];
+console.log(years);
+
+years.push(2023);
+console.log(years);
+//after adding a new element to the last of the array
+
+// Removing element from the last using pop()
+
+var books = ['Ceo', 'Deep Work', 'Atomic Habits', 'Silent Patient'];
+
+console.log(books);
+
+var removedElem = books.pop();
+//after removing
+console.log(books);
+
+console.log(removedElem);
+
+```
+Output: 
+
+```js
+[
+  2016, 2017,
+  2018, 2019,
+  2020, 2021,
+  2022       
+]
+[
+  2016, 2017, 2018,
+  2019, 2020, 2021,
+  2022, 2023
+]
+[ 'Ceo', 'Deep Work', 'Atomic Habits', 'Silent Patient' ]
+[ 'Ceo', 'Deep Work', 'Atomic Habits' ]
+Silent Patient
+```
+
+
 
 
 
