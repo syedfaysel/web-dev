@@ -51,23 +51,28 @@ console.log(myName);
 console.log(`My name:${myName}, My age: ${myAge}, student id: ${studentId}`);
 ```
 
-## Data Types 
+### Data Types 
 
-> There are several data types and they quite similar in almost all programming language. 
-In JavaScript, we have 
-**Numerical, String, Boolean** data types. 
+> There are several data types and they are quite similar in almost all programming languages. 
+In JavaScript, we have primitive
+**(Numerical, String, Boolean)** and non-primitive data types. 
 
 <br>
 
 <!-- This photo describe the data types best -->
 <img src="https://tinyurl.com/29mwn26x" alt="Data Types chart">
 
-
+**Primitive Data type:**
 1. Numbers: int, float
 2. Strings: use single or double quotation
 3. Boolean: true, false
 4. null: 
 5. undefined:
+
+**Non-primitive Data type:**
+1. Object
+2. Array
+3. Function
 
 
 ### Mathematical Operation  
@@ -91,3 +96,55 @@ age = age +20; //add 20 with previous value
 age +=20; // add 20 with previous value
 age++; // increase 1
 ```
+
+
+### Type Conversion 
+
+> we can convert a string (equivalent to a numebr) to int or float using `parseInt(), parseFloat` method. 
+
+
+<br>
+
+```javascript
+var name = "Rajo"; //string
+var friends = 10; // integer
+var height = 3.53475632; //float
+var weight = '25'; //string 
+
+// String concatenation 
+var newString = name + weight; 
+//output = Rajo25
+
+//Type conversion : parseInt(), parseFloat()
+
+var intWeight = parseInt(weight);
+var intHeight = parseInt(height);
+var fixedFloat = parseFloat(height.toFixed(3));
+
+
+console.log(intWeight, intHeight);
+
+```
+`output: 25 3 3.535`
+
+<br>
+
+### typeof
+
+> To check the data type of a variable we can use the `typeof` method. 
+
+```javascript
+var name = "Faysel";
+var age = 22;
+var life = 3.5; 
+var isAlive = true;
+var nothing;
+
+
+console.log(typeof name); //string
+console.log(typeof age); //number:int
+console.log(typeof life); // number:float
+console.log(typeof isAlive); //boolean
+console.log(typeof nothing); //undefined
+```  
+
