@@ -174,7 +174,7 @@ Module 17 ends here
 
 ### Array  
 
-**:right_point: Array:**   
+**:point_right: Array:**   
 Array is a collection of data. We can store as many data we want in a single variable using array.  
 
 `syntax: var arrayName = [elements separated by comma];`
@@ -182,7 +182,7 @@ Array is a collection of data. We can store as many data we want in a single var
 var arr1 = [1,2,3,4,5,6];
 ```
 
-**:right_point: Array size or Length of array**
+**:point_right: Array size or Length of array**
 
 We can get the size/length of the array, or the number of elements inside the array using `length` method. 
 
@@ -190,7 +190,7 @@ We can get the size/length of the array, or the number of elements inside the ar
 var sizeOfArr1 = arr1.length;
 ```
 
-**:right_point: Index**  
+**:point_right: Index**  
 Using index, we can access the elements of an array. Generally in all programming languages, `index starts from zero (0)`. 
 
 **Sample code:**  
