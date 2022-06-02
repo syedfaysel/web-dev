@@ -157,7 +157,7 @@ console.log(typeof nothing); //undefined
 :point_right: **Data types in JavaScript**  
 :point_right: **Type conversion, parseInt(), parseFloat**  
 :point_right: **Mathematical operation: +, -, '*', /, %**  
-:point_right: **Short hand mathematical operation (i++, i--, i+=4 etc)**
+:point_right: **Short hand mathematical operation (i++, i--, i+=4 etc)**  
 :point_right: **String concatenation**
 
 <br>
@@ -165,6 +165,56 @@ console.log(typeof nothing); //undefined
 Module 17 ends here  
 
 ---
+
+<br>
+
+## Module 18  
+
+**:beginner: Array & Condition** 
+
+### Array  
+
+**:right_point: Array:**   
+Array is a collection of data. We can store as many data we want in a single variable using array.  
+
+`syntax: var arrayName = [elements separated by comma];`
+```js
+var arr1 = [1,2,3,4,5,6];
+```
+
+**:right_point: Array size or Length of array**
+
+We can get the size/length of the array, or the number of elements inside the array using `length` method. 
+
+```js
+var sizeOfArr1 = arr1.length;
+```
+
+**:right_point: Index**  
+Using index, we can access the elements of an array. Generally in all programming languages, `index starts from zero (0)`. 
+
+**Sample code:**  
+
+```js
+var arr1 =[1,2,3,4,5,6];
+
+//length of the array
+var sizeOfArr1 = arr1.length;
+
+//index
+var secondElement = arr1[1];
+//index starts from zero
+
+console.log(arr1);
+console.log(sizeOfArr1);
+console.log(secondElement);
+```  
+`output`
+```js
+[ 1, 2, 3, 4, 5, 6 ]
+6
+2
+```
 
 
 
