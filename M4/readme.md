@@ -148,3 +148,25 @@ console.log(typeof isAlive); //boolean
 console.log(typeof nothing); //undefined
 ```  
 
+
+<br>
+
+## :gem: Summary M17  
+
+:point_right: **Variable & Variable declaration in 5 Steps**  
+:point_right: **Data types in JavaScript**  
+:point_right: **Type conversion, parseInt(), parseFloat**  
+:point_right: **Mathematical operation: +, -, '*', /, %**  
+:point_right: **Short hand mathematical operation (i++, i--, i+=4 etc)**
+:point_right: **String concatenation**
+
+<br>
+
+Module 17 ends here  
+
+---
+
+
+
+
+
