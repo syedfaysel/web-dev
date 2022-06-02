@@ -304,6 +304,19 @@ Silent Patient
 ```
 
 
+### Comparison Operator  
+
+<img src="https://tinyurl.com/2dxxkbjv" alt="comparison operator">
+
+Sample Code: 
+
+```js
+console.log(5>6); //false
+console.log(5==6); //false
+console.log(5<6); //true
+console.log(5!=6); //true
+```
+
 
 
 
