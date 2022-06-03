@@ -353,5 +353,11 @@ else{
 }
  ```
 
+:point_right: Summary:  
+
+<img src="https://www.bookofnetwork.com/images/javascript-images/JS_else()_24Feb17_1750.png" alt="conditional statement">  
+
+<br>
+
 
 
