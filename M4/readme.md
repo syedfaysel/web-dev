@@ -483,6 +483,47 @@ Iteration number:8
 Iteration number:9
 Iteration number:10
 ```
+---
 
+<br>
+
+
+## Module 19
+**Function & Object**
+
+### Function  
+> A function in JavaScript is similar to a procedure—a set of statements that performs a task or calculates a value, but for a procedure to qualify as a function, it should take some input and return an output where there is some obvious relationship between the input and the output. 
+
+Sample Code: 
+
+```js
+//function declaration
+function greetings(name){
+    console.log(`Hello ${name}`);
+}
+
+function addition(num1, num2){
+    sum = num1 + num2;
+    return sum;
+}
+
+// function call 
+greetings("Faysel");
+greetings("Rajo");
+
+
+addition(12,15); // will print nothing,
+//cz this function returns a value
+
+console.log(addition(12, 15));
+```
+
+output: 
+
+```js
+Hello Faysel
+Hello Rajo  
+27
+```
 
 
