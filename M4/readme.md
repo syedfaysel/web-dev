@@ -416,7 +416,7 @@ Output: `Too much distance, don't go to shopping`
 :point_right: **index, indexOf, array traversal**  
 :point_right: **Add, remove elements using push(),pop() methods**  
 :point_right: **Comparison Operators**  
-:point_right: **Conditional Statements: if, if else, else**
+:point_right: **Conditional Statements: if, if else, else**  
 :point_right: **Multiple Condition, Nested Condition**
 
 <br>
@@ -424,3 +424,65 @@ Output: `Too much distance, don't go to shopping`
 Module 18 ends here  
 
 ---
+
+## Module 18.5  
+### :beginner: Loop  
+
+> Loop is a way to do the same task again and again till a certain condition is true.  
+
+In Javascript, there are 3 types of loop:   
+1. for loop 
+2. while loop
+3. do while loop  
+
+:bulb: **For loop**  
+
+<img src="https://miro.medium.com/max/1400/1*Wal8vgWVHiYnM0IrnK0p3w.jpeg" alr="for loop">
+
+Sample code: 
+```js
+for (var i = 1; i<=10; i++){
+
+    console.log("Iteration number:"+i);
+}
+```
+
+:bulb: **while loop** 
+
+Syntax: 
+
+```js
+initialize_updater
+while(condition){
+    //block of code;
+
+    update;
+}
+```
+
+Sample code: 
+```js
+var i=1;
+while(i<=10){
+    console.log("Iteration number:"+i);
+
+    i++;
+}
+```
+
+Output to both of the code: 
+
+```
+Iteration number:1
+Iteration number:2
+Iteration number:3
+Iteration number:5
+Iteration number:6
+Iteration number:7
+Iteration number:8
+Iteration number:9
+Iteration number:10
+```
+
+
+
