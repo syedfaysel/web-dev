@@ -325,7 +325,32 @@ console.log(5!=6); //true
 
  In JavaScript, the structure of conditional statemtns are like below: 
 
+ ```js
+ if (condition){
+   //code to be executed if the condition is true
+ }
+ else if (another condition){
+    //code to be executed if the 1st condition is false and 2nd condition is true
+ }
+ else{
+   //if none of the conditions are true, this part of code will be executed.
+ }
  ```
+
+
+Sample Code: 
+ ```js
+var age = 22;
+
+if (age ==22){
+    console.log("Yes, Age is 22");
+}
+else if (age ==23){
+    console.log("Age is 23");
+}
+else{
+    console.log("No, age is neither 22 nor 23");
+}
  ```
 
 
