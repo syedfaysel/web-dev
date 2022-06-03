@@ -361,3 +361,66 @@ else{
 
 
 
+**Multiple Condition** 
+
+We can use multiple condtion by using logical operators. 
+
+```js
+// logical operator: and (&&) or (||)
+
+var age = 22;
+var hasJob = true;
+var hasHome = false;
+
+if (age>21 && (hasJob ==true || hasHome==true)){
+    console.log("You can marry");
+}
+else{
+    console.log("You can't marry");
+}
+```
+Output: `You can marry`
+
+<br>
+
+### Nested Condition  
+
+> Nested condition is nothing just condition/s within a condition.
+
+A sample code will make it clear: 
+
+```js
+var budget = 1500;
+var distance = 60;
+
+if (budget<2000){
+    if (distance<50){
+        console.log("Budget & distance is fair,Go to shopping");
+    }
+    else{
+        console.log("Too much distance, don't go to shopping");
+    }
+}
+else{
+    console.log("Budget insufficient,can't go to shopping");
+}
+```  
+Output: `Too much distance, don't go to shopping`
+
+<br>
+
+## :gem: Summary M18  
+
+:point_right: **Variable recap**  
+:point_right: **Array: collection of data**  
+:point_right: **index, indexOf, array traversal**  
+:point_right: **Add, remove elements using push(),pop() methods**  
+:point_right: **Comparison Operators**  
+:point_right: **Conditional Statements: if, if else, else**
+:point_right: **Multiple Condition, Nested Condition**
+
+<br>
+
+Module 18 ends here  
+
+---
