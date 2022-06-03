@@ -317,6 +317,16 @@ console.log(5<6); //true
 console.log(5!=6); //true
 ```
 
+<br>
+ 
+### Control Statement: Condition 
+
+ > In programming language, there are several control statements. Based on condition we can execute some portion of code. If the condition is true, that particular code will be executed, if the condtion is false that partcular portion of code will not be executed. There is another control statement which is loop. Using loop we can execute a code certain amount of time. We will learn more about loop later. Let's focus on condition.  
+
+ In JavaScript, the structure of conditional statemtns are like below: 
+
+ ```
+ ```
 
 
 
