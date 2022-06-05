@@ -579,3 +579,66 @@ console.log(student["name"]);
 
 <img src ="https://cdn.goconqr.com/uploads/media/image/16836696/desktop_dc66b518-4649-42a8-b556-56e569abde72.png" alt= "switch.jpg">
 
+<br>
+
+
+**Break & Continue**  
+
+Sample Code: 
+
+```js
+// Continue: 
+
+for (var i=1; i<10; i++){
+
+    if(i==5){
+        continue;
+        // when i==5, the iteration will be skipped to the next step
+    }
+    console.log("i is now = ",i);
+}
+
+
+//Break: 
+
+for (var j=1; j<10; j++){
+    if(j==5){
+        break;
+        //when j==5, the iteration will be stopped & get out of the innermost loop. 
+    }
+    console.log("j is now = ",j);
+}
+```
+<br>
+
+Output: 
+
+```js
+i is now =  1
+i is now =  2
+i is now =  3
+i is now =  4
+i is now =  6
+i is now =  7
+i is now =  8
+i is now =  9
+j is now =  1
+j is now =  2
+j is now =  3
+j is now =  4
+```
+
+
+## :gem: Summary M19  
+
+:point_right: Function , parameter, return  
+:point_right: Object, object property.  
+:point_right: Dot notation, bracket notation  
+:point_riht: Accessing object properties using dot notation 
+:point_right: While loop & for loop  
+:point_right: Switch,case , break & continue
+
+
+Module 19 Ends here
+
+---
