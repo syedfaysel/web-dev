@@ -645,3 +645,15 @@ Module 19 Ends here
 
 ## Module 20  
 
+:point_right: Odd or Even  
+:point_right: Leap year  
+:point_right: inch to feet converter  
+:point_right: Find Factorial in various algorithm  
+
+
+
+## Module 21  
+
+**JS simple Problem solving**  
+
+
