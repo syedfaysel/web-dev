@@ -526,4 +526,56 @@ Hello Rajo
 27
 ```
 
+### Object  
+
+> In JavaScript, an object is a standalone entity, with properties and type. Compare it with a cup, for example. A cup is an object, with properties. A cup has a color, a design, weight, a material it is made of, etc. The same way, JavaScript `objects can have properties`, which define their characteristics.  
+
+Syntax: 
+
+```js
+var objectName = { key: value, key:value.....}
+```
+
+Objects are declared by curly braces, and there are key: value (properties:attribute) pairs stored in an object. 
+
+For example: 
+
+```js
+var student = {
+    name: "rajo",
+    id: 12345678,
+    dept: "cse"
+}
+```
+
+Here in the above code, `student` is an object. Properties of this object are, name, id, dept and the attributes of these properties are respectively "rajo", 12345678, "cse".
+
+**Printing an object**  
+```js
+console.log(student);
+```
+Output: 
+
+```js
+{ name: 'rajo', id: 21101078, dept: 'cse'}
+```
+
+
+**Accessing an object (any properties of object)**  
+
+We can access any properties of object either by using dot notation or bracket notation. Most of the programmer & I personally prefer the dot notation. See the code example below: 
+
+```js
+//dot notaion: objectName.propertyName
+console.log(student.name);
+
+// Bracket notation to access object 
+console.log(student["name"]);
+```
+
+### Jump Statements  
+
+**Switch**
+
+<img src ="https://cdn.goconqr.com/uploads/media/image/16836696/desktop_dc66b518-4649-42a8-b556-56e569abde72.png" alt= "switch.jpg">
 
