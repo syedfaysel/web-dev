@@ -634,7 +634,7 @@ j is now =  4
 :point_right: Function , parameter, return  
 :point_right: Object, object property.  
 :point_right: Dot notation, bracket notation  
-:point_riht: Accessing object properties using dot notation 
+:point_right: Accessing object properties using dot notation  
 :point_right: While loop & for loop  
 :point_right: Switch,case , break & continue
 
@@ -642,3 +642,6 @@ j is now =  4
 Module 19 Ends here
 
 ---
+
+## Module 20  
+
