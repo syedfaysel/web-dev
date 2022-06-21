@@ -15,3 +15,8 @@ console.log(document.body);
 
 console.log(document.head);
 
+// m24.4
+
+console.log(dom);
+document.getElementById("dom").style.color = 'red';
+
