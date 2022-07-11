@@ -14,6 +14,8 @@ We can use API through JavaScript in the following way:
 
 <img src="https://miro.medium.com/max/1400/1*Zp7OjG_itJNA3VoXL5f5sQ.png" alt="fetch()">  
 
+### Fetch API  
+
 ```js
     fetch(url)
     .then(response => response.json())
