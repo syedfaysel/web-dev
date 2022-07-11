@@ -23,3 +23,6 @@ We can use API through JavaScript in the following way:
 ```
 
 Here, data is the json file that we will recieve through the api call. 
+
+
+Nonsense Api 
