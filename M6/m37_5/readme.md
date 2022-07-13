@@ -55,5 +55,12 @@ Simply saying, it created a closed environment. That's why it is called closure.
 
 
 ### 37_5_4 
+Keyworkds:  Hoisting, scope, block scope, scope chain
 
 **Scope**
+
+> Anything inside a curly braces.
+
+Things to remember:  
+
+const , let creates block scope. var doesn't create block scope. var hoist hoye ekdom upore chole jay...(learn more)
