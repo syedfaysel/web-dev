@@ -2,10 +2,15 @@
 
 ## 38.1  Module Intro & How internet Works  
 
+<br>
+
 ## 38.2  DOM Treee, Render tree 
+
+<br>
 
 ## 38.3  JavaScript v8 engine
 
+<br>
 
 ## 38.4  setTimeout simple Asynchronous JS using
 
@@ -39,5 +44,27 @@ console.log("Seventh Item");
 console.log("Eighth Item");
 ```
 
+<br>
+
+## 38.5  Recognize fetch as an Asynchronous activity  
+
+> Fetch works as asynchronus. 
+
+```js
+console.log("hi1");
+
+fetch('https://jsonplaceholder.typicode.com/todos/1')
+  .then(response => response.json())
+  .then(json => console.log(json))
+
+console.log("hi2");
+console.log("hi3");
+console.log("hi4");
+```
+
+Output:  
+![Output to fetch.js](./5_fetch.jpg)  
+
+Notice carefully that though we used `fetch` before `console.log("hi2")`, it executed after all other tasks. Therefore, fetch works in asynchronus way.
 
 
