@@ -25,3 +25,35 @@ We can use API through JavaScript in the following way:
 Here, data is the json file that we will recieve through the api call. 
 
 <!-- Random Commit 1 -->
+
+### 37_5_3  
+
+**Closure**: Closure is something that allows us to create something private that can't be accessed from outside.  
+
+```js
+const bank = (owner) => {
+    balance = 0;
+    return (amount) => {
+        balance+=amount;
+        return balance;
+    }
+}
+
+const RajoBank = bank("Mr. Rajo");
+
+console.log(RajoBank(200)); //200 deposit; balance = 200
+console.log(RajoBank(100)); //100 more deposit ; balance = 300
+
+//trying to access balance outside the function
+console.log(RajoBank.balance); //output: undefined 
+```
+
+An inner function can access the properties of the outer function. But We can't access the properties of the function outside the function.  
+
+Simply saying, it created a closed environment. That's why it is called closure. 
+
+
+
+### 37_5_4 
+
+**Scope**
