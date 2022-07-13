@@ -68,3 +68,14 @@ Output:
 Notice carefully that though we used `fetch` before `console.log("hi2")`, it executed after all other tasks. Therefore, fetch works in asynchronus way.
 
 
+## 38.6 setInterval and clearInterval with x++ and ++x  
+
+setInterval() method is used to execute a function again and again after a certain interval
+
+
+```js
+function greeting(){
+    console.log(`I am Rajo`);
+}
+setInterval(greeting,1000);
+```
