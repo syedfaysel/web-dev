@@ -49,3 +49,58 @@ keywords:
 
 ## Module 45
 
+### 45_1
+> React 6 core concepts
+
+Basic overview, Recap, Install React and folder structure
+
+### 45_2
+> JSX, Dynamic Content, Dynamic Style in React  
+
+
+### 45_3
+> Create Component & return HTML from a component   
+
+```
+function Component() {
+    return (
+        <div>
+            <h1> Hello Everyone </h1>
+            <p>I am Syed Faysel</p>
+        </div>
+    )
+}
+```
+Here `Component` is a simple component that we can use it anywhere like html tag.
+
+
+### 45_4  
+> pass Dynamic Data to Components using props (properties)
+
+```
+function App(){
+
+    return(
+        <Component name= "Rajo"></Component>
+    )
+}
+
+
+function Component(props) {
+
+    console.log(props);
+    // it will show an object for the props
+    return (
+        <div>
+            <h1>Name : {props.name}</h1>
+            <p>I am Syed Faysel</p>
+        </div>
+    )
+}
+
+export default App
+```
+
+
+
+
