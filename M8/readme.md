@@ -51,17 +51,17 @@ keywords:
 
 ## Module 45
 
-### 45_1
+### 45_1 React 6 core concepts
 
 > React 6 core concepts
 
 Basic overview, Recap, Install React and folder structure
 
-### 45_2
+### 45_2 JSX, Dynamic Content
 
 > JSX, Dynamic Content, Dynamic Style in React
 
-### 45_3
+### 45_3 Component
 
 > Create Component & return HTML from a component
 
@@ -78,7 +78,7 @@ function Component() {
 
 Here `Component` is a simple component that we can use it anywhere like html tag.
 
-### 45_4
+### 45_4 Pass Dynamic data
 
 > pass Dynamic Data to Components using props (properties)
 
@@ -110,7 +110,7 @@ Know more about `component` and `props`:
 component is nothing just a function. and props is a parameter which stands for properties. Technically props is an object which stores all the properties pass as an argument to that component function,
 
 
-## 45_5
+### 45_5 Create Multiple Components
 > (Advanced) Create Multiple components from an array of objects  
 
 Keywords: `map`  
@@ -134,22 +134,43 @@ function App() {
 }
 ```
 
-### 45_6
+### 45_6 Concept Recap
 > Concept Recap
 
-### 45_7
+### 45_7 State, Component State hook
 > State, Component State hook, set state method
 
-### 45_8
+### 45_8 Dynamic Data load
 > Dynamic Data load, API Call, useEffect integrate sate  
 
 API Call
+```js
+    fetch('url')
+    .then(res => res.json)
+    .then(data => console.log(data));
 ```
 
+To load data: with use state, useEffect
+
+```javaScript
+const [users, setUsers] = useState([]);
+useEffect(() => {
+    fetch('url')
+    .then(res => res.json)
+    .then(data => setUsers(data));
+} , [])
 ```
+useEffect takes 2 parameter, 2nd parameter is an empty array. then 1st one is an anonymous arrow function.
+
+5 Steps to dynamic external data load:
+1. useState()
+2. useEffect()
+3. data load / Api call
+4. connect with state
+5. show data using map()
 
 
-## Module Summary
+### Module Summary
 
 6 Important key of React:
 
