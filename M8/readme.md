@@ -180,3 +180,11 @@ useEffect takes 2 parameter, 2nd parameter is an empty array. then 1st one is an
 4. State
 5. Event Handler
 6. External Data Load (API)
+
+
+
+## Module 46
+
+### 46_2 Load countries using Effect
+
+
