@@ -34,6 +34,9 @@ Milestone | Topics
 [Milestone 12](M12) | Final Project 
 [Milestone 13](M13) | Intermediate React
 [Resources](Resources) | Necessery Resources
+[Javascript Plus](./Javascript%20plus/) | Advance Js & ES6/7
+[PHP](/PHP) | Hypertext Preprocessor
+[MySQL](/MySQL) | MySQL Database Language
 
 <br>
 
