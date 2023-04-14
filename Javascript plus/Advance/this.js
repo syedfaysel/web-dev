@@ -10,7 +10,10 @@
 // this keyword can not be used in object getters and setters
 // this keyword can not be used in object static methods
 
-// it depends on how a function is called. If the function is a method of an object, this is the object that called the method. If the function is a function, this is the global object. If the function is a function in strict mode, this is undefined. If the function is an event, this is the element that received the event. If the function is a function, this is the window object. If the function is a method, this is the owner object. If the function is a function, this is undef
+/* it depends on how a function is called. If the function is a method of an object, this is the object that called the method. If the function is a function, this is the global object.
+If the function is a function in strict mode, this is undefined. If the function is an event, this is the element that received the event. 
+If the function is a function, this is the window object. If the function is a method, this is the owner object. If the function is a function, this is undef
+*/
 
 console.log(this); // window object
 console.log(this === "window"); // true
@@ -48,7 +51,8 @@ const person = {
 
 person.greet(); // Hello, my name is John and I am 30 years old
 
-// We see that, when we call the greet method, the 'this' keyword refers to the person object, Instead of the window object. This is because the greet method is a method of the person object. So, the 'this' keyword refers to the person object
+// We see that, when we call the greet method, the 'this' keyword refers to the person object, Instead of the window object. 
+//This is because the greet method is a method of the person object.So, the 'this' keyword refers to the person object
 
 // Now let's see how 'this' keyword works in an object within another object
 
@@ -69,4 +73,7 @@ const person2 = {
 
 person2.address.greet(); // Hello, my name is undefined and I am undefined years old
 
-// in the later case, the 'this' keyword refers to the address object, instead of the person object. This is because the greet method is a method of the address object. So, the 'this' keyword refers to the address object. But, the address object does not have the name and age properties. So, the name and age properties are undefined. Value of `this` is determined by the leading parent object. In this case, the leading parent object is the address object. So, the `this` keyword refers to the address object
+/* in the later case, the 'this' keyword refers to the address object, instead of the person object. This is because the greet method is a method of the address object. 
+So, the 'this' keyword refers to the address object. But, the address object does not have the name and age properties. So, the name and age properties are undefined. 
+Value of `this` is determined by the leading parent object. In this case, the leading parent object is the address object. So, the `this` keyword refers to the address object
+*/
