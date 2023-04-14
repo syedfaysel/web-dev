@@ -41,17 +41,19 @@ console.log(this); // window object`
 console.log(this === "window"); // true
 ```
 
-> when 'this' keyword is used in the global scope or global execution context , it refers to the window object
- In both strict mode and non-strict mode, the value of this is the global object, whether in the browser or in Node.js
+when 'this' keyword is used in the global scope or global execution context , it refers to the window object
+In both strict mode and non-strict mode, the value of this is the global object, whether in the browser or in Node.js
+
 ```js
 function helloThis() {
     console.log(this);
 }
 
 helloThis(); // window object
-
 ```
+
  when `this` keyword is used in a function, it depends on how the function is called. in the above case it refers to the window object
+
 
 ```js
 function helloThis2() {
