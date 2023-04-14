@@ -63,19 +63,19 @@ helloThis2(); // undefined
 ```
 Now let's see how 'this' keyword works in an object
 
-```js
+```javascript
 const person = {
     name: "John",
     age: 30,
     greet: function () {
         console.log(this);
         console.log(
-            `Hello, my name is ${this.name} and I am ${this.age} years old`
+            `Hello, my name is ${this.name}`
         );
     },
 };
 
-person.greet(); // Hello, my name is John and I am 30 years old
+person.greet(); // Hello, my name is John
 
 ```
 
@@ -100,7 +100,7 @@ const person2 = {
     },
 };
 
-person2.address.greet(); // Hello, my name is undefined and I am undefined years old
+person2.address.greet(); // Hello, my name is undefined
 
 ```
 
