@@ -11,7 +11,7 @@ Official course link : [here](https://web.programming-hero.com)
 ## :bulb: Course Outline  
 There are 12 milestones. Approximately 24 weeks required to complete the course perfectly and revision. This is the max time limit 
 
-<p style="font-weight:bold">Self Reminder: <span style="color:orange"> 3/4 hours Everyday anyhow<span> </p>
+<p style="font-weight:bold">Self Reminder: <span style="color:orange">3/4 hours Everyday anyhow</span> </p><br>
 
 Restarting @1st June, 2022  
 Ending @31st August, 2022

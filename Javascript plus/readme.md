@@ -1,6 +1,6 @@
 # Javascript
 
-Basic javascript lessons are available on [milestone 4 (M4)](/M4). This folder contains some intermediate / advance or extra topic out of the course module.
+Basic javascript lessons are available on [milestone 4 (M4)](/web-dev/M4). This folder contains some intermediate / advance or extra topic out of the course module.
 
 Mostly, my self learning parts are added here.
 
