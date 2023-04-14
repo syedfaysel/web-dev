@@ -259,7 +259,7 @@ We can add any element to the last of the array. `syntax: arrayName.push(new ele
 
 > Removing an element from the last of an array using pop() method  
 
-We can remove any element from the last of the array. `syntax: arrayName.pop()`. Remember, push() method takes no parameter. 
+We can remove any element from the last of the array. `syntax: arrayName.pop()`. Remember, pop() method takes no parameter. 
 
 Sample Code: 
 
