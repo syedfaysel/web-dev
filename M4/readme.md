@@ -1,5 +1,5 @@
 # Intro to JavaScript  
-[Syed Faysel Ahammad Rajo](https://syedfaysel.me)  
+[Syed Faysel Ahammad Rajo](https://syedfaysel.github.io)  
 
 > :beginner: JavaScript:  
 JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard.It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).  
@@ -629,14 +629,64 @@ j is now =  4
 ```
 
 
+**Looping through Object**
+
+We can loop over an object. Before getting into how to loop over an object. Let's know more about how can we access all the `kyes` and `values` separately (in an array)
+
+```js
+var info = {
+  name : "rajo",
+  id : 123,
+  age: 23
+}
+
+// getting all the keys
+var infoKeys = Object.keys(info);
+console.log(infoKyes);
+
+// values 
+var infoValues = Object.values(info);
+console.log(infoValues);
+
+
+```
+Output:
+```
+[ 'name', 'id', 'age' ]
+[ 'rajo', 123, 23 ]
+```
+Now that we know, how to get the array of `keys` and `values`
+
+> There is shortcut `loop` (for in loop) by which we can access the keys or properties of an object, and if we can access the keys, we can access the values as well.
+
+```js
+for (prop in info){
+  console.log(prop);
+  console.log(info[prop]);
+}
+```
+output:
+
+```js
+name
+rajo
+id
+123
+age
+23
+```
+here `prop` refers each `key` of the info object.
+
 ## :gem: Summary M19  
 
 :point_right: Function , parameter, return  
 :point_right: Object, object property.  
 :point_right: Dot notation, bracket notation  
 :point_right: Accessing object properties using dot notation  
-:point_right: While loop & for loop  
+:point_right: Looping over object
+:point_right: While loop & for loop ,  
 :point_right: Switch,case , break & continue
+
 
 
 Module 19 Ends here
